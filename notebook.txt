@@ -3,20 +3,20 @@
                 {
                         "number": "0",
                         "title": "note",
-                        "body": "text",
-                        "date": "2023-10-31 17:08"
+                        "body": "about smth",
+                        "date": "2023-10-31 17:14"
                 },
                 {
                         "number": "1",
-                        "title": "nt2",
-                        "body": "some more text",
-                        "date": "2023-10-31 17:08"
+                        "title": "new_note",
+                        "body": "about squirrels",
+                        "date": "2023-10-31 17:14"
                 },
                 {
                         "number": "2",
-                        "title": "note3",
-                        "body": "rebecca",
-                        "date": "2023-10-31 17:09"
+                        "title": "nt",
+                        "body": "some words",
+                        "date": "2023-10-31 17:15"
                 }
         ]
 }

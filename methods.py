@@ -20,6 +20,7 @@ class Methods():
         self.data['notes'].append(newLine)  
         with open('notebook.txt', 'w', encoding="utf-8") as notebook:
             json.dump(self.data, notebook, indent=8)
+        print("Заметка добавлена")
 
 
     def editNote(self):
