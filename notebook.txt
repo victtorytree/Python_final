@@ -1,0 +1,22 @@
+{
+        "notes": [
+                {
+                        "number": "0",
+                        "title": "note",
+                        "body": "text",
+                        "date": "2023-10-31 17:08"
+                },
+                {
+                        "number": "1",
+                        "title": "nt2",
+                        "body": "some more text",
+                        "date": "2023-10-31 17:08"
+                },
+                {
+                        "number": "2",
+                        "title": "note3",
+                        "body": "rebecca",
+                        "date": "2023-10-31 17:09"
+                }
+        ]
+}

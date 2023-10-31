@@ -18,7 +18,7 @@ class Methods():
         a.body = input("Введите текст заметки: ")
         newLine = {"number": str(a.id), "title": a.title, "body": a.body, "date": str(a.dateOfCreation)}
         self.data['notes'].append(newLine)  
-        with open('notebook.txt', 'w') as notebook:
+        with open('notebook.txt', 'w', encoding="utf-8") as notebook:
             json.dump(self.data, notebook, indent=8)
 
 
@@ -44,7 +44,9 @@ class Methods():
         for item in self.data["notes"]:
             if item["number"] == str(index):
                 self.data["notes"].remove(item)
+        self.getNotes()
+        print("заметка удалена")
     
-    def getAnswerFromConsole():
-        res = input("Введите номер заметки, либо s - список всех заметок")
+    def getAnswerFromConsole(self):
+        res = input("Введите номер заметки, либо s - список всех заметок ")
         return res
